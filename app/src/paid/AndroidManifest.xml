@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+
+        <activity
+            android:name="com.udacity.gradle.builditbigger.paid.PaidJokeActivity"
+            android:label="PaidJokeActivity"/>
+            <!--android:parentActivityName="com.udacity.gradle.builditbigger.MainActivity"/>-->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.udacity.gradle.builditbigger.MainActivity" />
+    </application>
+</manifest>
